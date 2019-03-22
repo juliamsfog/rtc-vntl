@@ -32,7 +32,7 @@
       <bpmn:incoming>SequenceFlow_1cb2h7y</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1o7h54u</bpmn:outgoing>
     </bpmn:userTask>
-    <bpmn:userTask id="Task_0b29rdq" name="Создать новую номенклатуру или изменить, удалить существующую">
+    <bpmn:userTask id="Task_0b29rdq" name="Создать или изменить или удалить существующую">
       <bpmn:incoming>SequenceFlow_1q4mds1</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0asb3pg</bpmn:outgoing>
       <bpmn:dataOutputAssociation id="DataOutputAssociation_0z4ph45">
@@ -73,7 +73,7 @@
       <bpmn:outgoing>SequenceFlow_1i51g23</bpmn:outgoing>
       <bpmn:messageEventDefinition />
     </bpmn:intermediateThrowEvent>
-    <bpmn:dataObjectReference id="DataObjectReference_11bu8kh" name="Элемент справочника &#34;Номенклатура&#34;" dataObjectRef="DataObject_00bbjxd" />
+    <bpmn:dataObjectReference id="DataObjectReference_11bu8kh" name="Элемент справочника " dataObjectRef="DataObject_00bbjxd" />
     <bpmn:dataObject id="DataObject_00bbjxd" />
     <bpmn:exclusiveGateway id="ExclusiveGateway_1ithnlx">
       <bpmn:incoming>SequenceFlow_0j6orc6</bpmn:incoming>
@@ -439,7 +439,7 @@
       <bpmndi:BPMNShape id="DataObjectReference_11bu8kh_di" bpmnElement="DataObjectReference_11bu8kh">
         <dc:Bounds x="764" y="447" width="36" height="50" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="741" y="504" width="82" height="40" />
+          <dc:Bounds x="750" y="504" width="65" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="DataOutputAssociation_1xg0pds_di" bpmnElement="DataOutputAssociation_1xg0pds">
