@@ -102,7 +102,7 @@
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_15lnh9a">
       <bpmndi:BPMNShape id="Participant_0wdrvld_di" bpmnElement="Participant_0wdrvld" isHorizontal="true">
-        <dc:Bounds x="127" y="416" width="765" height="265" />
+        <dc:Bounds x="127" y="402" width="776" height="279" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
         <dc:Bounds x="168" y="137" width="36" height="36" />
@@ -232,7 +232,7 @@
         <di:waypoint x="793" y="541" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="Lane_0y1fzn6_di" bpmnElement="Lane_0y1fzn6" isHorizontal="true">
-        <dc:Bounds x="157" y="416" width="735" height="265" />
+        <dc:Bounds x="157" y="402" width="746" height="279" />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
